@@ -234,6 +234,42 @@ img {
     overflow: auto;
 }
 
+/* log in css */
+
+.signin {
+    margin: 20px 450px ;
+    position: absolute;
+    height: 700px;
+    color: #fff;
+}
+
+.signin h2 {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#form {
+    width: 300px;
+    height: 40px;
+    border: none;
+
+}
+
+.btn-primary {
+    margin-top: 30px;
+    width: 350px;
+}
+
+.formcontrol {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
 /* footer section */
 .footer {
     margin: 50px 0 50px;
@@ -261,6 +297,8 @@ img {
 .footer li {
     line-height: 21px;
 }
+
+/* media to make the page responsive */
 
 @media (max-width: 960px){
     .wordcontainer {
